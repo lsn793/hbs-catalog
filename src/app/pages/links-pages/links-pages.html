@@ -1,0 +1,15 @@
+<div class="links-group">
+        @for (item of [
+          { title: 'ALL BUGS', link: 'allBugs' },
+          { title: 'List type 1', link: 'listType1' }
+        ]; track item.title) {
+          <a
+            class="pill"
+            routerLink="{{ item.link }}"
+          >
+            <span>{{ item.title }}</span>
+          </a>
+        }
+</div>
+
+

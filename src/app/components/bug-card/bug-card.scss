@@ -1,0 +1,26 @@
+.bug-card {
+    border: 1px solid var(--dark-color);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 32px;
+
+}
+
+.bug-avatar {
+    display: grid;
+    grid-template-columns: 70px 1fr;
+    grid-gap: 20px;
+}
+
+.bug-img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.bug-name {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
